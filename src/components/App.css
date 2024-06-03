@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+}
+
+.header button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header .login-button {
+  background-color: #3b13bc;
+  color: white;
+}
+
+.header .logout-button {
+  background-color: #ff4b4b;
+  color: white;
+}
+
+.header button:hover {
+  opacity: 0.8;
+}
+
+.main-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.main-content h1 {
+  color: #ffffff;
+}
+
+.main-content p {
+  color: #666;
+}
